@@ -1,0 +1,360 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	padding: 20px 0px;
+	background: #4a1831;
+}
+.navbar{
+	text-align: center;
+}
+.navbar .menu{
+	display: block;
+	margin: 0px auto;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 25px;
+}
+.navbar .menu li a{
+	font-size: 25px;
+	font-weight: 400;
+	color: #ffd7ad;
+	text-transform: uppercase;
+}
+.navbar .menu li a:hover{
+	color: #fff;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/bnr.png") center top no-repeat;
+	background-size: cover;
+}
+.banner .inner-banner{
+	width: 100%;
+}
+.banner .inner-banner img{
+	width: 150px;
+}
+.banner .inner-banner h1{
+	font-size: 120px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #ffd7ad;
+}
+.banner .inner-banner p{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.7em;
+	color: #ffd7ad;
+	margin: 35px 0px;
+}
+.banner .button{
+	width: 100%;
+}
+.banner .inner-banner .btn-primary{
+	padding: 10px 100px;
+	background: #ffd7ad;
+	color: #4a1831;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-color: #ffd7ad;
+	border-radius: 50px;
+	transition: 2s;
+}
+.banner .inner-banner .btn-primary:hover{
+	background: transparent;
+	color: #ffd7ad;
+}
+.our-menu{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0px;
+	background: url("../images/menu.png") center top no-repeat;
+	background-size: cover;	
+}
+.our-menu .main-menu{
+	width: 100%;
+	text-align: center;
+}
+.our-menu .main-menu h1{
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #4a1831;
+	text-align: center;
+}
+.our-menu .main-menu p{
+	font-size: 30px;
+	font-weight: 500;
+	color: #4a1831;
+	text-align: center;
+	margin: 25px 0px 55px 0px;
+}
+.our-menu .btn-primary a{
+	text-align: center;
+}
+.our-menu .main-menu .btn-primary{
+	display: inline-block;
+	padding: 10px 100px;
+	background: #4a1831;
+	color: #ffd7ad;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-color: #4a1831;
+	border-radius: 50px;
+	transition: 2s;
+}
+.our-menu .main-menu .btn-primary:hover{
+	background: transparent;
+	color: #4a1831;
+}
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffd7ad;
+}
+.about img{
+	width: 90%;
+}
+.about h1{
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #4a1831;
+	margin: 80px 0px 0px 0px;
+}
+.about p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #4a1831;
+	margin: 25px 0px 55px 0px;
+}
+.about .btn-primary a{
+	text-align: center;
+}
+.about .btn-primary{
+	display: inline-block;
+	padding: 10px 100px;
+	background: #4a1831;
+	color: #ffd7ad;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-color: #4a1831;
+	border-radius: 50px;
+	transition: 2s;
+}
+.about .btn-primary:hover{
+	background: transparent;
+	color: #4a1831;
+}
+.discount{
+	width: 100%;
+	padding: 150px 0px;
+	background: url("../images/of.png") center top no-repeat;
+	background-size: cover;	
+}
+.discount h1{
+	font-size: 250px;
+	font-weight: 800;
+	color: #e63956;
+}
+.discount h2{
+	font-size: 100px;
+	font-weight: 800;
+	color: #55112e;
+	text-transform: uppercase;
+}
+.discount h3{
+	font-size: 120px;
+	font-weight: 800;
+	color: #6cc5ac;
+	text-transform: uppercase;
+}
+.offer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #4a1831;
+}
+.offer img{
+	width: 90%;
+}
+.offer h1{
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #ffd7ad;
+	margin: 80px 0px 0px 0px;
+}
+.offer p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffd7ad;
+	margin: 25px 0px 55px 0px;
+}
+.offer .btn-primary a{
+	text-align: center;
+}
+.offer .btn-primary{
+	padding: 10px 100px;
+	background: #ffd7ad;
+	color: #4a1831;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-color: #ffd7ad;
+	border-radius: 50px;
+	transition: 2s;
+}
+.offer .btn-primary:hover{
+	background: transparent;
+	color: #ffd7ad;
+}
+.info{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b2.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.info img{
+	width: 350px;
+	padding: 80px 40px;
+}
+.info p{
+	font-size: 50px;
+	font-weight: 600;
+	color: #ffd7ad;
+}
+.info h4{
+	font-size: 70px;
+	font-weight: 600;
+	color: #ffd7ad;
+}
+.latest{
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffd7ad;
+	text-align: center;
+}
+.latest h1{
+	font-size: 80px;
+	font-weight: 600;
+	line-height: 1.2em;
+	color: #4a1831;
+	margin: 80px 0px 0px 0px;
+}
+.latest p{
+	font-size: 30px;
+	font-weight: 400;
+	color: #4a1831;
+	margin: 40px 0px 40px 0px;
+}
+.latest input{
+	font-size: 25px;
+	border-radius: 20px;
+}
+.latest span{
+	font-size: 25px;
+	border-radius: 20px;
+	background: #4a1831;
+	color: #ffd7ad;
+	text-transform: uppercase;
+}
+.footer{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: #4a1831;
+}
+.footer h4{
+	font-size: 50px;
+	font-weight: 600;
+	color: #ffd7ad;
+}
+.footer p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffd7ad;
+	margin: 20px 0px 20px 0px;
+}
+.footer .icons{
+	width: 100%;
+	display: block;
+	padding: 0px;
+}
+.footer .icons li{
+	list-style: none;
+	display: inline-block;
+}
+.footer .icons li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #ffd7ad;
+	border: 1px solid #ffd7ad;
+	border-radius: 100%;
+	font-size: 30px;
+	color: #4a1831;
+	margin: 0px 10px;
+	text-align: center;
+}
+.widget{
+	width: 100%;
+}
+.widget li{
+	list-style: none;
+	display: block;
+}
+.widget li a{
+	display: block;
+	color: #ffd7ad;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.7em;
+	margin: 0px 0px 10px;
+}
+.widget li .active{
+	font-size: 35px;
+}
+.copyright{
+	width: 100%;
+	padding: 35px 0px 15px;
+}
+.copyright p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffd7ad;
+	margin: 0px;
+}
+.copyright a{
+	text-decoration: none;
+	color: #ffd7ad;
+}
